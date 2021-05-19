@@ -1,0 +1,121 @@
+body {
+    margin:0;
+    background-color:#eaf1f1;
+    overflow-x: hidden;
+}
+header {
+    overflow: hidden;
+    background-color: #28608d;
+    padding: 0 1%;
+    width:100vw;
+}
+.header-right {
+    float: right;
+    padding: 2% 1%;
+}
+h3 {
+    float:left;
+    height: 100%;
+    margin:0;
+    padding:2% 1%;
+}
+button, a {
+     background-color:transparent;
+     text-decoration: none;
+     padding:.375rem .75rem;
+}
+.reserve {
+    border:1px solid rgb(48, 226, 48);
+    color: rgb(48, 226, 48);
+    font-weight: bold; 
+}
+.cancel{
+    border:1px solid #3293a8;
+    color: #3293a8;
+    font-weight: bold;
+    text-decoration: none;
+}
+.purchase {
+ display:block;
+ text-align: center;
+ font-weight: bold; 
+ color: #e8bd20;
+ border: 1px solid #e8bd20;
+}
+.purchase:hover {
+    cursor:pointer;
+    background-color:#e8bd20;
+    color: black;
+}
+.reserve:hover {
+    background-color:rgb(48, 226, 48);
+    color:black;
+    cursor: pointer;
+}
+.cancel:hover {
+    background-color: #3293a8;
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.catalogue {
+    margin: 0 auto;
+    width:90vw;
+}
+hr {
+    background-color:darkgrey;
+    margin:1% 0;
+}
+.product {
+    width:20%;
+    height: 50%;
+    border: none;
+    display: inline-block;
+    padding:1% 0 0 0;
+    margin:2%;
+    position:relative;
+    background-color:white;     
+}
+.product-info {
+    text-align: center;
+}
+footer {
+    overflow: hidden;
+    background-color: #28608d;
+    padding: 0 3%;
+    width:100%;
+}
+#checkoutwarning {
+    display:none;
+}
+#carttwarning {
+    display:none;
+}
+ table {
+    margin:1% auto;
+    border-collapse: collapse;
+    width:100%;
+}
+td, th {
+    border-top:1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 10%;
+}
+@media only screen and (max-width: 820px) {
+    .catalogue {
+        width:95vw;
+    }
+    .product {
+        width:45%;
+    }
+    span {
+        display:none;
+    }
+    input {
+        width: 15vw;
+    }
+    .header-right {
+        padding:3% 1%;
+    }
+  }

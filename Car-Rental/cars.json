@@ -1,0 +1,136 @@
+{
+    "cars": [
+        {
+            "category": "sedan",
+            "brand": "Toyota",
+            "model": "Camry-2013",
+            "mileage": 10000,
+            "fuelType": "Hybrid",
+            "seats": 5,
+            "price":120,
+            "description": "images/Toyota-Camry.jpg",
+            "availability": true
+        },
+        {
+            "category": "sedan",
+            "brand": "BMW",
+            "model": "320i",
+            "mileage": 12000,
+            "fuelType": "petrol",
+            "seats": 4,
+            "price":280,
+            "description": "images/bmw-320i.jpg",
+            "availability": true
+        },
+        {
+            "category": "sedan",
+            "brand": "Nissan",
+            "model": "X-Trail-2015",
+            "mileage": 36782,
+            "fuelType": "petrol",
+            "seats": 7,
+            "price":360,
+            "description": "images/Nissan-X-trail.jpg",
+            "availability": true
+        },
+        {
+            "category": "sedan",
+            "brand": "Volkswagen",
+            "model": "Golf-2017",
+            "mileage": 13586,
+            "fuelType": "petrol",
+            "seats": 5,
+            "price":180,
+            "description": "images/Volkswagon-Golf.jpg",
+            "availability": true
+        },
+        {
+            "category": "sedan",
+            "brand": "Honda",
+            "model": "Civic",
+            "mileage": 9586,
+            "fuelType": "petrol",
+            "seats": 5,
+            "price":220,
+            "description": "images/Honda-Civic.jpg",
+            "availability": false
+        },
+        {
+            "category": "SUV",
+            "brand": "Suzuki",
+            "model": "Jimny-2011",
+            "mileage": 16897,
+            "fuelType": "petrol",
+            "seats": 5,
+            "price":310,
+            "description": "images/Suzuki-Jimny.jpg",
+            "availability": true
+        },
+        {
+            "category": "SUV",
+            "brand": "Holden",
+            "model": "Captiva",
+            "mileage": 15766,
+            "fuelType": "petrol",
+            "seats": 5,
+            "price":190,
+            "description": "images/captiva.jpg",
+            "availability": false
+        },
+        {
+            "category": "sedan",
+            "brand": "Hyundai",
+            "model": "Sonata",
+            "mileage": 18541,
+            "fuelType": "petrol",
+            "seats": 5,
+            "price":125,
+            "description": "images/Hyundai-Sonata.jpg",
+            "availability": false
+        },
+        {
+            "category": "SUV",
+            "brand": "Mercedes",
+            "model": "AMG Series",
+            "mileage": 21390,
+            "fuelType": "petrol",
+            "seats": 6,
+            "price": 350,
+            "description": "images/Mercedes-GLC.jpg",
+            "availability": true
+        },
+        {
+            "category": "SUV",
+            "brand": "Jeep",
+            "model": "Cherokee",
+            "mileage": 20985,
+            "fuelType": "petrol",
+            "seats": 5,
+            "price": 320,
+            "description": "images/Jeep-Cherokee.jpg",
+            "availability": true
+        },
+         {
+            "category": "SUV",
+            "brand": "Ford",
+            "model": "Everest",
+            "mileage": 25321,
+            "fuelType": "petrol",
+            "seats": 7,
+            "price": 315,
+            "description": "images/everest.jpg",
+            "availability": true
+        },
+         {
+            "category": "sedan",
+            "brand": "Kia",
+            "model": "Optima",
+            "mileage": 240193,
+            "fuelType": "hybrid",
+            "seats": 5,
+            "price": 250,
+            "description": "images/optima.jpg",
+            "availability": false
+        }
+    ]
+}
